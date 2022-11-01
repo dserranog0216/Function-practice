@@ -9,7 +9,7 @@ from addfruit import add_fruit
 from dividefruit import divide_fruit 
 from subtractfruit import subtract_fruit
 from displayfruit import display_fruit
-
+from function import greet
 apples = int(input("how many apples? "))
 oranges = int(input("how many oranges? "))
 
@@ -29,3 +29,4 @@ print(fruitDiv)
 
 #display the added fruit, subtracted fruit and divided fruit
 display_fruit(fruitAdded, fruitSub, fruitDiv)
+
